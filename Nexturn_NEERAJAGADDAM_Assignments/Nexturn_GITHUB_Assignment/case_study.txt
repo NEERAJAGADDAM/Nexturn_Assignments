@@ -1,0 +1,37 @@
+Web Technologies Exercise
+
+Case Study 1: To-Do List Application
+
+Scenario
+
+A local productivity coach wants a simple To-Do List application for their clients to track daily tasks. The application should allow users to add, edit, delete, and mark tasks as completed. The coach also wants the list to persist so that users don’t lose tasks when they refresh the page.
+
+Requirements
+
+1. Features:
+
+o Add new tasks with a task name. o Edit existing tasks. o Delete tasks. o Mark tasks as completed (strike-through effect).
+
+o Show a count of pending tasks.
+
+2. Styling:
+
+o Use CSS to create a visually appealing interface with a modern card layout.
+
+o Completed tasks should have a different style (e.g., dimmed with a strike-through).
+
+3. JavaScript Functionality:
+
+o Use localStorage to save the task list so tasks persist after the page is refreshed.
+
+o Ensure the task list dynamically updates without refreshing the page.
+
+4. Extras (Optional): o Add drag-and-drop functionality to reorder tasks.
+
+Learning Outcomes
+
+• Use of DOM manipulation.
+
+• Working with localStorage for persistent data.
+
+• Enhancing the user interface with CSS animations and responsive design.

@@ -1,0 +1,17 @@
+Exercise 2: Bank Transaction System
+
+Topics Covered: Go Constants, Go Loops, Go Break and Continue, Go Functions, Go Strings, Go Errors Case Study:
+
+You need to simulate a bank transaction system with the following features:
+
+1. Account Management: Each account has an ID, name, and balance. Store the accounts in a slice.
+
+2. Deposit Function: A function to deposit money into an account. Validate if the deposit amount is greater than zero.
+
+3. Withdraw Function: A function to withdraw money from an account. Ensure the account has a sufficient balance before proceeding.
+ Return appropriate errors for invalid amounts or insufficient balance.
+
+4. Transaction History: Maintain a transaction history for each account as a string slice. Use a loop to display the transaction history when requested.
+
+5. Menu System: Implement a menu-driven program where users can choose actions like deposit, withdraw, view balance, or exit.
+ Use constants for menu options and break the loop to exit.

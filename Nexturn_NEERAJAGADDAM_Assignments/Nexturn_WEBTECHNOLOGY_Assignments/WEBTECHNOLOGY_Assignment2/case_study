@@ -1,0 +1,47 @@
+Web Technologies Exercise
+
+Case Study 2: Expense Tracker Application
+
+Scenario
+
+A startup founder wants a personal expense tracker to monitor their daily spending. The application should allow users to log expenses, categorize them, and visualize the total spending in different categories.
+
+Requirements
+
+1. Features:
+
+o Add a new expense with details like:
+
+▪ Amount.
+
+▪ Description.
+
+▪ Category (e.g., Food, Travel, Shopping).
+
+o Display a summary of total spending by category.
+
+o Delete expenses if needed.
+
+2. Styling:
+
+o Create a visually pleasing layout with CSS (e.g., category badges, table layout for expense logs). o Use media queries to ensure the design is responsive on mobile and desktop screens.
+
+3. JavaScript Functionality:
+
+o Use JavaScript to calculate and display the total expense for each category dynamically.
+
+o Store expenses using localStorage for persistence.
+
+4. Extras (Optional):
+
+o Create a pie chart or bar chart to visualize spending by category using a library like Chart.js or vanilla JavaScript with the <canvas> element.
+
+Learning Outcomes
+
+• Practice form handling in JavaScript.
+
+• Implement basic data calculations dynamically.
+
+• Use tables and charts for data visualization.
+
+• Make use of responsive design principles with CSS.

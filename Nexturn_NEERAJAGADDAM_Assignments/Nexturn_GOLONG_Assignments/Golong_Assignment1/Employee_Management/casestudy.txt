@@ -1,0 +1,19 @@
+Exercise 1: Employee Management System
+
+Topics Covered: Go Conditions, Go Loops, Go Constants, Go Functions, Go Arrays, Go Strings, Go Errors Case Study:
+
+A company wants to manage its employees' data in memory. Each employee has an ID, name, age, and department.
+ You need to build a small application that performs the following:
+
+1. Add Employee: Accept input for employee details and store them in an array of structs. Validate the input: o ID must be unique.
+ o Age should be greater than 18. If validation fails, return custom error messages.
+
+2. Search Employee: Search for an employee by ID or name using conditions. Return the details if found, or return an error if not found.
+
+3. List Employees by Department: Use loops to filter and display all employees in a given department.
+
+4. Count Employees: Use constants to define a department (e.g., "HR", "IT"), and display the count of employees in that department.
+
+Bonus:
+
+Refactor the repetitive code using functions, and add error handling for invalid operations like searching for a non-existent employee.

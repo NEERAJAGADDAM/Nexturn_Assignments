@@ -1,0 +1,21 @@
+Exercise 5: Climate Data Analysis
+
+Topics Covered: Go Arrays, Go Strings, Go Type Casting, Go Functions, Go Conditions, Go Loops
+
+Case Study:
+
+You are tasked with analyzing climate data from multiple cities. The data includes the city name, average temperature (°C), and rainfall (mm).
+
+1. Data Input: Create a slice of structs to store data for each city. Input data can be hardcoded or taken from the user.
+
+2. Highest and Lowest Temperature: Write functions to find the city with the highest and lowest average temperatures. Use conditions for comparison.
+
+3. Average Rainfall: Calculate the average rainfall across all cities using loops. Use type casting if necessary.
+
+4. Filter Cities by Rainfall: Use loops to display cities with rainfall above a certain threshold. Prompt the user to enter the threshold value.
+
+5. Search by City Name: Allow users to search for a city by name and display its data.
+
+Bonus:
+
+• Add error handling for invalid city names and invalid input for thresholds.

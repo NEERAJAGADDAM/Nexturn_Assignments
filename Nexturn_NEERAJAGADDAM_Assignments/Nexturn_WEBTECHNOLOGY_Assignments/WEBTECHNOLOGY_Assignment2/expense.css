@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+#summary ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#summary ul li {
+    padding: 5px 0;
+    color: #555;
+    font-size: 18px;
+}
+
+#expense-log table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#expense-log table th, #expense-log table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#expense-log table th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+#expense-log table td button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#expense-log table td button:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    form {
+        flex-wrap: wrap;
+    }
+
+    form input, form select, form button {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+}

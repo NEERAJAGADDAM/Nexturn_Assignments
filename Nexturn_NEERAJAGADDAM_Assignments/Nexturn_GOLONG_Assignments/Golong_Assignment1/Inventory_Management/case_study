@@ -1,0 +1,22 @@
+
+Exercise 3: Inventory Management System
+
+Topics Covered: Go Conditions, Go Type Casting, Go Functions, Go Arrays, Go Strings, Go Errors
+
+Case Study:
+
+A store needs to manage its inventory of products. Build an application that includes the following:
+
+1. Product Struct: Create a struct to represent a product with fields for ID, name, price (float64), and stock (int).
+
+2. Add Product: Write a function to add new products to the inventory. Use type casting to ensure price inputs are converted to float64.
+
+3. Update Stock: Implement a function to update the stock of a product. Use conditions to validate the input (e.g., stock cannot be negative).
+
+4. Search Product: Allow users to search for products by name or ID. If a product is not found, return a custom error message.
+
+5. Display Inventory: Use loops to display all available products in a formatted table.
+
+Bonus:
+
+• Add sorting functionality to display products by price or stock in ascending order.

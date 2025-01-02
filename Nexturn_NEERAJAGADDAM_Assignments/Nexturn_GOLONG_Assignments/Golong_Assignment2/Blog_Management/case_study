@@ -1,0 +1,77 @@
+Go Language Rest API Exercises
+
+(Intermediate to Advanced Concepts)
+
+Case Study 1: Building a Blog Management System Using Go HTTP Server and SQLite
+
+Objective:
+
+Develop a lightweight blog management system with features like creating, reading, updating, and deleting blog posts using Go. The focus is on scalability, simplicity, and performance.
+
+Background:
+
+A small blogging startup wants to build a cost-effective, fast, and scalable blogging platform. They prefer Go for its performance and concurrency capabilities. SQLite is chosen as the database because it is lightweight and requires no separate server setup.
+
+Solution:
+
+1. Go HTTP Server:
+
+o A basic HTTP server is set up using Go's built-in net/http package.
+
+o Routes include:
+
+▪ POST /blog: Create a new blog post.
+
+▪ GET /blog/{id}: Fetch a specific blog post by ID.
+
+▪ GET /blogs: Fetch all blog posts.
+
+▪ PUT /blog/{id}: Update a blog post by ID.
+
+▪ DELETE /blog/{id}: Delete a blog post by ID.
+
+2. Go REST API:
+
+o RESTful principles are followed to ensure clean and predictable API endpoints.
+
+o JSON is used for request and response data formats.
+
+3. Go Air:
+
+o Go Air is integrated into the project for live reloading during development, enhancing developer productivity. o As the server code is modified, Go Air automatically restarts the server, reflecting the changes instantly.
+
+4. SQLite Connectivity:
+
+o SQLite is integrated using the github.com/mattn/go-sqlite3 driver.
+
+o Database schema includes a blogs table with fields like id, title, content, author, and timestamp.
+
+o Query examples:
+
+▪ Create Blog: INSERT INTO blogs (title, content, author, timestamp) VALUES (?, ?, ?, ?)
+
+▪ Fetch Blogs: SELECT * FROM blogs ORDER BY timestamp DESC.
+
+5. Middleware:
+
+o Middleware functions are implemented for:
+
+▪ Logging incoming requests.
+
+▪ Validating JSON payloads in requests.
+
+▪ Authentication (e.g., validating API keys).
+
+▪ Error handling for proper JSON responses when an error occurs.
+
+Outcome:
+
+The blog management system is deployed successfully. Key benefits include:
+
+• Efficient request handling using Go's lightweight HTTP server.
+
+• Cost-effective deployment since SQLite requires no dedicated server.
+
+• Simplified development using Go Air.
+
+• Easy extensibility with middleware to add features like rate limiting and advanced logging.

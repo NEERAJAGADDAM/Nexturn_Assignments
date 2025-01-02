@@ -1,0 +1,21 @@
+Exercise 4: Online Examination System
+
+Topics Covered: Go Loops, Go Break and Continue, Go Constants, Go Strings, Go Functions, Go Errors Case Study:
+
+Develop an online examination system where users can take a quiz.
+
+1. Question Bank: Define a slice of structs to store questions. Each question should have a question string, options (array), and the correct answer.
+
+2. Take Quiz: Use loops to iterate over questions and display them one by one. Allow the user to select an answer by entering the option number. o Use continue to skip invalid inputs and prompt the user again.
+
+o Use break to exit the quiz early if the user enters a specific command
+
+(e.g., "exit").
+
+3. Score Calculation: After the quiz, calculate the user's score and display it. Use conditions to classify performance (e.g., "Excellent", "Good", "Needs Improvement").
+
+4. Error Handling: Handle errors like invalid input during the quiz (e.g., entering a non-integer value for an option).
+
+Bonus:
+
+• Add a timer for the quiz, limiting each question to a fixed amount of time.

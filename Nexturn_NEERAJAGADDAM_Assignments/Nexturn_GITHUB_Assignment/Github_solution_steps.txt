@@ -1,0 +1,42 @@
+*******************************************************************************************************************************************************************************************
+                                                                 Steps to Follow on github
+																 -------------------------
+																 
+   1) To create a single directory ----- mkdir Sample-project
+   2) To navigate it's location -------- cd Sample-project
+   3) Initialized empty Git repository - git init 
+   4) To create a file --------------- echo "#This is my Sample-Project" > .gitignore
+   5) add file into our repository --- git add .<filename>
+   6) make commitment ---------------- git commit -m "commitment success"
+   
+   
+   Link local repository to GITHUB:
+   
+   1) git remote add origin https://github.com/NEERAJAGADDAM/Sample-Project.git
+   2) git branch -M main
+   3) git push -u origin main --- * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+   Feature Addition:
+   
+   1)To creste new branch ------ git checkout -b feature/update-readme
+   2)add readme.md file ----- echo "This project serves as a foundation for Git and GitHub workflow training." >> README.md
+   3) git add README.md
+   4) git commit -m "Added README.md file with project introduction"
+   5)git push -u origin feature/update-readme
+
+   Merge Changes:
+   
+   1) git checkout main
+   2) git pull origin main
+   3) git merge feature/update-readme
+   4) git push origin main
+
+   Clean up unused branches:
+   
+   1) git branch -d feature/update-readme
+   2) git push origin --delete feature/update-readme
+
+
+                     
